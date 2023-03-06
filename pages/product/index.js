@@ -9,7 +9,7 @@ export default function index(props) {
     </Head>
 
     <h1>which one product you want</h1>
-    <li><Link href="/product/1">Product 1</Link></li>
+    {/* <li><Link href="/product/1">Product 1</Link></li> */}
     {/* {console.log(props)} */}
 
     {props.posts.map(post=>
